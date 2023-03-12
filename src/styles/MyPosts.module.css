@@ -1,0 +1,25 @@
+.postItems {
+  border: 1px dashed #007aff;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  min-height: 90%;
+  height: 90%;
+  overflow: scroll;
+  width: 100%;
+}
+
+.postItems li {
+  border-bottom: 1px solid #007aff;
+  padding-bottom: 0.5rem;
+  width: 100%;
+}
+
+.postItems li:not(:last-child) {
+  margin-bottom: 0.5rem;
+}
+
+.postItems li a {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+}
